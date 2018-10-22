@@ -27,7 +27,7 @@ class AddressBook {
 
 
      display(whichIndex, delEntry, newContact){
-        
+        //let newE = innerHTML; 
         //append latest entry
         if (newContact){
             for (let i = this.contacts.length - 1; i < this.contacts.length; i++){
@@ -77,11 +77,11 @@ document.querySelector(".Submit").onclick = function() {
     person.add(new Contact(name, email, phone, relation, entryNum));
     person.display((person.deleteAt(entryNum)), delEntry, newContact);
 
-       document.querySelector("#btn2").addEventListener("click", function() {
-        console.log("sup");
+       document.querySelector(`btn${entryNum}`).onclick = function() {
+        // console.log("sup");
         newContact = false;
         delEntry = true;   
         console.log(`btn${entryNum}`);
         person.display(person.deleteAt(entryNum), delEntry, newContact);
-        });
+        };
     }
