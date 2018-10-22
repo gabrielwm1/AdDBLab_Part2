@@ -1,0 +1,82 @@
+
+section1{
+    height: 50x;
+    width: 150px;
+    background-color:rgba(255,255,255,0.8);
+    /* left: 10px; */
+    position: absolute;
+    /* display: inline-block; */
+    bottom: 10px; 
+    left:50px; 
+    border-radius: 5px;
+    /* margin: 0px 50px 0px 0px; */
+}
+section2{
+    height: 50x;
+    width: 150px;
+    background-color:rgba(255,255,255,0.8);
+    /* left: 10px; */
+    position: absolute;
+    /* display: inline-block; */
+    bottom: 10px; 
+    left:250px;; 
+    border-radius: 5px;
+    /* padding-left: 50px; */
+    /* margin: 0px 50px 0px 0px; */
+}
+.background-overlay{
+     /* position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0; */
+   
+   /* z-index: 2; */
+}
+
+body{
+    
+    background-color:rgba(0,0,0,0.6); 
+    opacity: 0.7; 
+
+    background-image: url(addressbg.jpg);
+    font-family: 'Maven Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    /* //length: 600px; */
+    /* width: 800px; */
+    width: 1100px;
+    height: 650px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 300px; */
+    width: 500px;
+    height: 300px;
+    background-color:rgb(179,178,176, 0.6);
+    border-radius: 5px;
+    /* margin-bottom: 200px; */
+    
+}
+input{
+    padding:10px;
+    border-radius: 5px;
+    width: 400px;
+    background-color:#fff;
+}
+.Submit{
+    margin: 10px;
+    border-radius: 5px;
+    width: 400px;
+}
+h2{
+    color: white;
+    margin-bottom: 30px;
+}
